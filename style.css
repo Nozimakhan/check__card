@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(246, 246, 246);
+}
+.card{
+    display: flex;
+    width: 320px;
+    height: 390px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 10px;
+    background-color: white;
+}
+.container{
+    text-align: center;
+    padding: 25px;
+    line-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img.logo{
+    width: 40%;
+    padding-top: 20px;
+}
+p.text{
+    line-height: 20px;
+}
+a.btn{
+    background-color: rgb(57, 181, 243);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
